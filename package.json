@@ -9,7 +9,9 @@
     "build": "tsc",
     "build:watch": "tsc --watch",
     "dev:watch": "nodemon lib/index.js",
-    "dev": "concurrently npm:build:watch npm:dev:watch"
+    "dev": "concurrently npm:build:watch npm:dev:watch",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +26,8 @@
     "inert": "^4.2.1",
     "joi": "^13.1.2",
     "mongodb": "^3.0.3",
-    "vision": "^4.1.1"
-  }
+    "vision": "^4.1.1",
+    "snyk": "^1.258.2"
+  },
+  "snyk": true
 }
