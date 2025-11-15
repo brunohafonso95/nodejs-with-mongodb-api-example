@@ -20,7 +20,7 @@
     "@types/mongodb": "^3.0.5",
     "concurrently": "^4.0.1",
     "hapi": "^15.2.0",
-    "hapi-swagger": "^7.10.0",
+    "hapi-swagger": "^17.0.0",
     "inert": "^4.2.1",
     "joi": "^13.1.2",
     "mongodb": "^3.0.3",
